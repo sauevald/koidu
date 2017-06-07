@@ -2,7 +2,7 @@
 
 ## Tutvustus
 
-Koidu küla on Alliku ja Vanamõisa külade piiride muutmise teel [21.07.2012 loodud](https://www.riigiteataja.ee/akt/118072012005) küla Harju maakonnas Saue vallas. Uue küla põhiosa moodustas senine Alliku küla kagunurk, väike kild liideti ka Vanamõisa külast. Küla piirneb lõunast raudteega, idast Laagri möödasõiduga ja läänest Vääna jõega. 01.01.2016 seisuga on külas 369 elanikku, küla pindala on 1,894 km². Küla loomise algatas [kohalik kogukond](https://www.facebook.com/koidu).
+Koidu küla on Alliku ja Vanamõisa külade piiride muutmise teel [21.07.2012 loodud](https://www.riigiteataja.ee/akt/118072012005) küla Harju maakonnas Saue vallas. Uue küla põhiosa moodustas senine Alliku küla kagunurk, väike kild liideti ka Vanamõisa külast. Küla piirneb lõunast raudteega, idast Laagri möödasõiduga ja läänest Vääna jõega. 01.01.2016 seisuga oli külas 369 elanikku, küla pindala on 1,894 km². Küla loomise algatas [kohalik kogukond](https://www.facebook.com/koidu).
 
 Külas asuvad [Padula raudteepeatus](https://et.wikipedia.org/wiki/Padula_raudteepeatus) ja [Saunapunkt](http://www.saunapunkt.ee/).
 
