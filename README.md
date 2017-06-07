@@ -1,4 +1,4 @@
-# Koidu küla 
+# [Koidu küla](https://sauevald.github.io/koidu/)
 
 ## Tutvustus
 
