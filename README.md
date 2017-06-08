@@ -2,9 +2,9 @@
 
 ## Tutvustus
 
-Koidu küla on Alliku ja Vanamõisa külade piiride muutmise teel [21.07.2012 loodud](https://www.riigiteataja.ee/akt/118072012005) küla Harju maakonnas Saue vallas. Küla põhiosa moodustab senine Alliku küla kagunurk, väike kild (Nõuma talu) liideti Vanamõisa külast. Küla piirneb lõunast raudteega, idast Laagri möödasõiduga ja läänest Vääna jõega. 01.01.2016 seisuga oli külas 369 elanikku, küla pindala on 1,894 km². Küla loomise algatas [kohalik kogukond](https://www.facebook.com/koidu).
+Koidu küla on Alliku ja Vanamõisa külade piiride muutmise teel [21.07.2012 loodud](https://www.riigiteataja.ee/akt/118072012005) küla Harju maakonnas Saue vallas. Küla põhiosa moodustab senine Alliku küla kagunurk, väike kild (Nõuma talu) liideti Vanamõisa külast. Küla piirneb lõunast raudteega, idast Laagri möödasõiduga ja läänest Vääna jõega. 01.01.2016 seisuga oli külas 369 elanikku, küla pindala on 1,894 km². Külas asub [Padula raudteepeatus](https://et.wikipedia.org/wiki/Padula_raudteepeatus).
 
-Külas asuvad [Padula raudteepeatus](https://et.wikipedia.org/wiki/Padula_raudteepeatus) ja [Saunapunkt](http://www.saunapunkt.ee/).
+Küla loomise algatas [kohalik kogukond](https://www.facebook.com/koidu). Külasiseste juttude kohaks on piiratud juurdepääsuga FB grupp [Koidu küla seltskond](https://www.facebook.com/groups/koidu/). Küla korraldab igal aastal talgupäevi ([2017](https://www.facebook.com/pg/koidu/photos/?tab=album&album_id=1528208410546077)), mille käigus reeglina koristatakse ära kõik küla teeääred, lisaks muud tegevused. Alates [2017.a kevadest](https://www.facebook.com/pg/koidu/photos/?tab=album&album_id=1551307594902825) peetakse külas ka tenniseturniire, järgmine toimub 2017.a augustis. Külas asub ka populaarne peokoht [Saunapunkt](http://www.saunapunkt.ee/).
 
 <script src="https://embed.github.com/view/geojson/sauevald/koidu/master/kaardid/koidu_kaart.geojson"></script>
 
