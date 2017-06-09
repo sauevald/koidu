@@ -16,4 +16,6 @@ Küla loomise algatas [kohalik kogukond](https://www.facebook.com/koidu). Külas
 1. [Koidu palliplats](https://github.com/sauevald/koidu/projects/4)
 1. [Koidu küla talgupäev 2018](https://github.com/sauevald/koidu/projects/6)
 
+## Asukoht
+
 <script src="https://embed.github.com/view/geojson/sauevald/koidu/master/kaardid/koidu_kaart.geojson"></script>
