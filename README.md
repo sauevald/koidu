@@ -20,4 +20,4 @@ Projektikeskkonnas ise osalemine eeldab [kasutajaks registreerimist](https://git
 
 ## Asukoht
 
-<script src="https://embed.github.com/view/geojson/sauevald/koidu/master/kaardid/koidu_kaart.geojson"></script>
+<script src="https://embed.github.com/view/geojson/sauevald/koidu/master/kaardid/koidu_kyla.geojson"></script>
