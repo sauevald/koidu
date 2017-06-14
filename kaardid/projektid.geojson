@@ -9,7 +9,7 @@
         "stroke-opacity": 1,
         "fill": "#fec44f",
         "fill-opacity": 0.5,
-        "Nimetus": "<a href=\"https://github.com/sauevald/koidu/projects/2\">Koidu park (projekt)</a>"
+        "Projekt": "<a href=\"https://github.com/sauevald/koidu/projects/2\" target=\"_blank\">Koidu park (Koidu tee 1)</a>"
       },
       "geometry": {
         "type": "Polygon",
@@ -59,7 +59,7 @@
         "stroke-opacity": 1,
         "fill": "#d95f0e",
         "fill-opacity": 0.5,
-        "Nimetus": "<a href=\"https://github.com/sauevald/koidu/projects/1\">Koidu mänguväljak (projekt)</a>"
+        "Nimetus": "<a href=\"https://github.com/sauevald/koidu/projects/1\" target=\"_blank\">Koidu mänguväljak (Koidu tee 7a)</a>"
       },
       "geometry": {
         "type": "Polygon",
@@ -92,28 +92,12 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "bus",
-        "Nimetus": "Koidu bussipeatus"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.593694806098938,
-          59.344910195854915
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "stroke": "#555555",
         "stroke-width": 2,
         "stroke-opacity": 1,
         "fill": "#d95f0e",
         "fill-opacity": 0.5,
-        "Nimetus": "<a href=\"https://github.com/sauevald/koidu/projects/3\">Koidu tenniseväljakud (projekt)</a>"
+        "Nimetus": "<a href=\"https://github.com/sauevald/koidu/projects/3\" target=\"_blank\">Koidu tenniseväljakud</a>"
       },
       "geometry": {
         "type": "Polygon",
@@ -151,7 +135,7 @@
         "stroke-opacity": 1,
         "fill": "#fff7bc",
         "fill-opacity": 0.5,
-        "Nimetus": "<a href=\"https://github.com/sauevald/koidu/projects/4\">Koidu palliplats (projekt)</a>"
+        "Nimetus": "<a href=\"https://github.com/sauevald/koidu/projects/4\" target=\"_blank\">Koidu palliplats</a>"
       },
       "geometry": {
         "type": "Polygon",
@@ -182,38 +166,6 @@
               59.34135294790634
             ]
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "rail",
-        "Nimetus": "Padula raudteepeatus"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.59143102169037,
-          59.337599722636625
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "campsite",
-        "Nimetus": "<a href=\"http://www.saunapunkt.ee/\">Saunapunkt</a>"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.58487570285797,
-          59.337137379756065
         ]
       }
     }
