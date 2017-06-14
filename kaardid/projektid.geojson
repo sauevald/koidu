@@ -59,7 +59,7 @@
         "stroke-opacity": 1,
         "fill": "#d95f0e",
         "fill-opacity": 0.5,
-        "Projekt": "<a href=\"https://github.com/sauevald/koidu/projects/1\">Koidu mänguväljak (Koidu tee 7a)</a>"
+        "Nimetus": "<a href=\"https://github.com/sauevald/koidu/projects/1\">Koidu mänguväljak (Koidu tee 7a)</a>"
       },
       "geometry": {
         "type": "Polygon",
@@ -113,7 +113,7 @@
         "stroke-opacity": 1,
         "fill": "#d95f0e",
         "fill-opacity": 0.5,
-        "Projekt": "<a href=\"https://github.com/sauevald/koidu/projects/3\">Koidu tenniseväljakud</a>"
+        "Nimetus": "<a href=\"https://github.com/sauevald/koidu/projects/3\">Koidu tenniseväljakud</a>"
       },
       "geometry": {
         "type": "Polygon",
@@ -151,7 +151,7 @@
         "stroke-opacity": 1,
         "fill": "#fff7bc",
         "fill-opacity": 0.5,
-        "Projekt": "<a href=\"https://github.com/sauevald/koidu/projects/4\">Koidu palliplats</a>"
+        "Nimetus": "<a href=\"https://github.com/sauevald/koidu/projects/4\">Koidu palliplats</a>"
       },
       "geometry": {
         "type": "Polygon",
