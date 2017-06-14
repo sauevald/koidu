@@ -41,6 +41,15 @@
       attribution: '&copy; Maa-amet'
     }).addTo(map);
 
+    function pStyle(pFeature) {
+      return {
+        weight: 2,
+        opacity: 0.5,
+        color: 'orange',
+        dashArray: '3'
+      }
+    }
+
     function eachLayer(p) {
       var pFeature = p.toGeoJSON();
       if (pFeature.properties && pFeature.properties.Nimetus) {
@@ -53,6 +62,7 @@
         map.fitBounds(projektid.getBounds());
         map.addLayer(projektid);
         projektid.eachLayer(eachLayer);
+        projektid.setStyle(pStyle);
       });
 
     projektid.on('click', function(e) {
@@ -63,15 +73,7 @@
       return {
         weight: 2,
         opacity: 0.5,
-        color: 'orange',
-        dashArray: '3'
-      }
-    }
-
-    function eachLayer(k) {
-      var kFeature = k.toGeoJSON();
-      if (kFeature.properties && kFeature.properties.name) {
-        k.bindPopup('<b>' + kFeature.properties.name + '</b>');
+        color: '#669900'
       }
     }
 
