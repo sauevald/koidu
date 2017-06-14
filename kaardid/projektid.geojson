@@ -1,0 +1,221 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#fec44f",
+        "fill-opacity": 0.5,
+        "Projekt": "<a href=\"https://github.com/sauevald/koidu/projects/2\">Koidu park (Koidu tee 1)</a>"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.590840935707092,
+              59.34429067889
+            ],
+            [
+              24.59081947803497,
+              59.34413203696662
+            ],
+            [
+              24.589902162551883,
+              59.34371901744849
+            ],
+            [
+              24.59032595157623,
+              59.343489256072004
+            ],
+            [
+              24.5905727148056,
+              59.343489256072004
+            ],
+            [
+              24.592080116271973,
+              59.344197681990316
+            ],
+            [
+              24.591983556747437,
+              59.34424691567479
+            ],
+            [
+              24.590840935707092,
+              59.34429067889
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#d95f0e",
+        "fill-opacity": 0.5,
+        "Projekt": "<a href=\"https://github.com/sauevald/koidu/projects/1\">Koidu mänguväljak (Koidu tee 7a)</a>"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.594022035598755,
+              59.34563637022696
+            ],
+            [
+              24.593952298164364,
+              59.3450893476608
+            ],
+            [
+              24.594461917877197,
+              59.34532183332812
+            ],
+            [
+              24.594483375549316,
+              59.34552970151815
+            ],
+            [
+              24.594022035598755,
+              59.34563637022696
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "Nimetus": "Koidu bussipeatus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.593694806098938,
+          59.344910195854915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#d95f0e",
+        "fill-opacity": 0.5,
+        "Projekt": "<a href=\"https://github.com/sauevald/koidu/projects/3\">Koidu tenniseväljakud</a>"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.590835571289062,
+              59.339744473573276
+            ],
+            [
+              24.591983556747437,
+              59.33921924096726
+            ],
+            [
+              24.593764543533325,
+              59.339892193780386
+            ],
+            [
+              24.592691659927368,
+              59.34050495222411
+            ],
+            [
+              24.590835571289062,
+              59.339744473573276
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#fff7bc",
+        "fill-opacity": 0.5,
+        "Projekt": "<a href=\"https://github.com/sauevald/koidu/projects/4\">Koidu palliplats</a>"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.585578441619873,
+              59.34135294790634
+            ],
+            [
+              24.585052728652954,
+              59.341068461392275
+            ],
+            [
+              24.585460424423218,
+              59.34087150779437
+            ],
+            [
+              24.586130976676955,
+              59.341068461392275
+            ],
+            [
+              24.586082696914673,
+              59.34122438218067
+            ],
+            [
+              24.585578441619873,
+              59.34135294790634
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "rail",
+        "Nimetus": "Padula raudteepeatus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.59143102169037,
+          59.337599722636625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "campsite",
+        "Nimetus": "<a href=\"http://www.saunapunkt.ee/\">Saunapunkt</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.58487570285797,
+          59.337137379756065
+        ]
+      }
+    }
+  ]
+}
