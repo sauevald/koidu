@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8 />
+  <title>Koidu küla</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <link rel='stylesheet' href='https://unpkg.com/leaflet@1.0.3/dist/leaflet.css' />
+
+  <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+  <script src='https://unpkg.com/leaflet@1.0.3/dist/leaflet.js'></script>
+  <script src='https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js'></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id='map'></div>
+
+  <script>
+    var map = new L.Map('map').setView([58.61, 25.25], 4);
+
+    var positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+      maxZoom: 13,
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+    }).addTo(map);
+
+    function kStyle(kFeature) {
+      return {
+        weight: 2,
+        opacity: 0.5,
+        color: 'orange',
+        dashArray: '3'
+      }
+    }
+
+    function eachLayer(k) {
+      var kFeature = k.toGeoJSON();
+      if (kFeature.properties && kFeature.properties.name) {
+        k.bindPopup('<b>' + kFeature.properties.name + '</b>');
+      }
+    }
+
+    var koidu_kyla = omnivore.geojson('koidu_kyla.geojson')
+      .on('ready', function() {
+        map.fitBounds(koidu_kyla.getBounds());
+        map.addLayer(koidu_kyla);
+        koidu_kyla.eachLayer(eachLayer);
+        koidu_kyla.setStyle(kStyle);
+      });
+
+    maakond.on('click', function(e) {
+      map.fitBounds(e.layer.getBounds());
+    });
+  </script>
+</body>
+
+</html>
