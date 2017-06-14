@@ -80,7 +80,7 @@
     var koidu_kyla = omnivore.geojson('koidu_kyla.geojson')
       .on('ready', function() {
         map.fitBounds(koidu_kyla.getBounds());
-        //map.addLayer(koidu_kyla);
+        map.addLayer(koidu_kyla);
         koidu_kyla.eachLayer(eachLayer);
         koidu_kyla.setStyle(kStyle);
       });
