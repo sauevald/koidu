@@ -36,10 +36,28 @@
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
     }).addTo(map);
 
-          var ortofoto = L.tileLayer('http://kaart.maakaart.ee/orto/{z}/{x}/{y}.jpeg', {
-        minZoom: 14,
-        attribution: '&copy; Maa-amet'
+    var ortofoto = L.tileLayer('http://kaart.maakaart.ee/orto/{z}/{x}/{y}.jpeg', {
+      minZoom: 14,
+      attribution: '&copy; Maa-amet'
+    });
+
+    function eachLayer(p) {
+      var pFeature = p.toGeoJSON();
+      if (pFeature.properties && pFeature.properties.Nimetus) {
+        p.bindPopup('<b>' + pFeature.properties.Nimetus + '</b>');
+      }
+    }
+
+    var projektid = omnivore.geojson('projektid.geojson')
+      .on('ready', function() {
+        map.fitBounds(projektid.getBounds());
+        map.addLayer(projektid);
+        projektid.eachLayer(eachLayer);
       });
+
+    projektid.on('click', function(e) {
+      map.fitBounds(e.layer.getBounds());
+    });
 
     function kStyle(kFeature) {
       return {
@@ -65,40 +83,17 @@
         koidu_kyla.setStyle(kStyle);
       });
 
-    koidu_kyla.on('click', function(e) {
-      map.fitBounds(e.layer.getBounds());
-    });
+    var baseLayers = {
+      "Aluskaart": positron,
+      "Ortofoto": ortofoto
+    };
 
-    function eachLayer(p) {
-      var pFeature = p.toGeoJSON();
-      if (pFeature.properties && pFeature.properties.Nimetus) {
-        p.bindPopup('<b>' + pFeature.properties.Nimetus + '</b>');
-      }
-    }
+    var overlays = {
+      "Projektid": projektid,
+      "Koidu küla piir": koidu_kyla
+    };
 
-    var projektid = omnivore.geojson('projektid.geojson')
-      .on('ready', function() {
-        map.fitBounds(projektid.getBounds());
-        map.addLayer(projektid);
-        projektid.eachLayer(eachLayer);
-      });
-
-    projektid.on('click', function(e) {
-      map.fitBounds(e.layer.getBounds());
-    });
-
-      var baseLayers = {
-    "Aluskaart": positron,
-    "Ortofoto": ortofoto
-  };
-
-  var overlays = {
-    "Koidu küla": koidu_kyla,
-    "Projektid": projektid
-  };
-
-  L.control.layers(baseLayers, overlays).addTo(map);
-
+    L.control.layers(baseLayers, overlays).addTo(map);
   </script>
 </body>
 
