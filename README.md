@@ -19,6 +19,6 @@ Küla loomise algatas [kohalik kogukond](https://www.facebook.com/koidu). Külas
 
 Projektikeskkonnas ise osalemine eeldab [kasutajaks registreerimist](https://github.com/join). Ideed ja probleemid saab edastada ka külaseltsi meiliaadressile koidu.kylaselts at gmail.com või [küla FB grupis](https://www.facebook.com/groups/koidu/).
 
-## Asukoht
+## Kaart
 
-<script src="https://embed.github.com/view/geojson/sauevald/koidu/master/kaardid/koidu_kyla.geojson"></script>
+<iframe height='500px' width='100%' frameborder='0' src='http://koidukyla.ee/kaardid/' style='border: 1px solid black'></iframe>
