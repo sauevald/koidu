@@ -22,4 +22,4 @@ Projektikeskkonnas ise osalemine eeldab [kasutajaks registreerimist](https://git
 ## Kaart
 
 <iframe height='500px' width='100%' frameborder='0' src='http://koidukyla.ee/kaart/' style='border: 1px solid black'></iframe>
-Ava kaart [uues aknas](http://koidukyla.ee/kaart/).
+[Ava suur kaart](http://koidukyla.ee/kaart/).
