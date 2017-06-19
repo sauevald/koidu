@@ -60,7 +60,8 @@
     }
 
     var projektid = omnivore.geojson('projektid.geojson', {
-        	pane: 'projektid'
+        	pane: 'projektid',
+          attribution: '&copy; <a href="http://koidukyla.ee/">Koidu Külaselts</a>'
         })
       .on('ready', function() {
         map.fitBounds(projektid.getBounds());
