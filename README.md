@@ -9,6 +9,7 @@ Küla loomise algatas [kohalik kogukond](https://www.facebook.com/koidu). Külas
 ## Projektid
 
 1. [Koidu Külaselts MTÜ](https://github.com/sauevald/koidu/projects/5)
+1. [Koidu küla arengukava](https://github.com/sauevald/koidu/projects/11)
 1. [Koidu liikuvus](https://github.com/sauevald/koidu/projects/7)
 1. [Koidu planeeringud](https://github.com/sauevald/koidu/projects/9)
 1. [Koidu mänguväljak (Koidu tee 7a)](https://github.com/sauevald/koidu/projects/1)
