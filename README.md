@@ -6,6 +6,12 @@ Koidu küla on Alliku ja Vanamõisa külade piiride muutmise teel [21.07.2012 lo
 
 Küla loomise algatas [kohalik kogukond](https://www.facebook.com/koidu). Külasiseste juttude kohaks on piiratud juurdepääsuga FB grupp [Koidu küla seltskond](https://www.facebook.com/groups/koidu/). Küla korraldab igal aastal talgupäevi ([2017](https://www.facebook.com/pg/koidu/photos/?tab=album&album_id=1528208410546077)), mille käigus reeglina koristatakse ära kõik küla teeääred, lisaks muud tegevused. Alates [2017.a kevadest](https://www.facebook.com/pg/koidu/photos/?tab=album&album_id=1551307594902825) peetakse külas tenniseturniire, järgmine toimub 2017.a augustis. Külas asub ka populaarne peokoht [Saunapunkt](http://www.saunapunkt.ee/), kus iga aasta kevadel toimub [Kõva Mehe Jooks](https://www.stamina.ee/kovamees).
 
+## Koidu Külaselts
+
+MTÜ Koidu Külaselts (80419983) on asutatud 18. juunil 2017 11 asutajaliikme poolt. Seltsi eesmärgiks on [põhikirja](/selts/pohikiri_80419983_689415.pdf) järgi Koidu küla seltsielu edendamine; sotsiaalse, majandusliku ja kultuurilise taristu arendamine ning piirkonna elanike huvide esindamine ja kaitsmine.
+
+Asutamiskoosolekul valiti seltsi juhatusse Allar Leedu, Rain Väät ja Tormi Tabor. Külaseltsiga liitumiseks saada seltsi meiliaadressile koidu.kylaselts at gmail.com vabas vormis avaldus.
+
 ## Projektid
 
 1. [Koidu Külaselts MTÜ](https://github.com/sauevald/koidu/projects/5)
