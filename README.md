@@ -18,11 +18,12 @@ Asutamiskoosolekul valiti seltsi juhatusse Allar Leedu, Rain Väät ja Tormi Tab
 1. [Koidu küla arengukava](https://github.com/sauevald/koidu/projects/11)
 1. [Koidu liikuvus](https://github.com/sauevald/koidu/projects/7)
 1. [Koidu planeeringud](https://github.com/sauevald/koidu/projects/9)
+1. [Koidu küla talgud](https://github.com/sauevald/koidu/projects/6)
+1. [Koidu kohvikutepäevad](https://github.com/sauevald/koidu/projects/12)
 1. [Koidu mänguväljak (Koidu tee 7a)](https://github.com/sauevald/koidu/projects/1)
 1. [Koidu park (Koidu tee 1)](https://github.com/sauevald/koidu/projects/2)
 1. [Koidu tenniseväljakud](https://github.com/sauevald/koidu/projects/3)
 1. [Koidu palliplats](https://github.com/sauevald/koidu/projects/4)
-1. [Koidu küla talgupäev 2018](https://github.com/sauevald/koidu/projects/6)
 
 Projektikeskkonnas ise osalemine eeldab [kasutajaks registreerimist](https://github.com/join). Ideed ja probleemid saab edastada ka külaseltsi meiliaadressile koidu.kylaselts at gmail.com või [küla FB grupis](https://www.facebook.com/groups/koidu/).
 
