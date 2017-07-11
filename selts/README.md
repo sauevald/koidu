@@ -1,3 +1,4 @@
 ## Koidu Külaseltsi dokumendid
 
-- [Seltsi liikmete nimekiri](liikmed.md)
+- [Põhikiri](pohikiri.md)
+- [Liikmete nimekiri](liikmed.md)
