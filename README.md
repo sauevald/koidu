@@ -25,6 +25,8 @@ Asutamiskoosolekul valiti seltsi juhatusse Allar Leedu, Rain Väät ja Tormi Tab
 1. [Koidu tenniseväljakud](https://github.com/sauevald/koidu/projects/3)
 1. [Koidu palliplats](https://github.com/sauevald/koidu/projects/4)
 
+Ideede ja probleemide logi: https://github.com/sauevald/koidu/issues
+
 Projektikeskkonnas ise osalemine eeldab [kasutajaks registreerimist](https://github.com/join). Ideed ja probleemid saab edastada ka külaseltsi meiliaadressile koidu.kylaselts at gmail.com või [küla FB grupis](https://www.facebook.com/groups/koidu/).
 
 ## Kaart
