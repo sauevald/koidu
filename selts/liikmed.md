@@ -1,6 +1,3 @@
-
-[koidukyla.ee](http://koidukyla.ee/) > [Koidu Külaselts](http://koidukyla.ee/selts/)
-
 ## Koidu Külaseltsi liikmed
 
 Nimi | Roll seltsis | Telefon
@@ -16,3 +13,6 @@ Kati Oolo | Asutajaliige |
 Raili Vesberg-Pikk | Asutajaliige | 
 Kaidi Väät | Asutajaliige | 
 Rain Väät | Asutajaliige, juhatuse liige | 
+
+---
+[koidukyla.ee](http://koidukyla.ee/) > [Koidu Külaselts](http://koidukyla.ee/selts/)
