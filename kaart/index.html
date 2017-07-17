@@ -31,10 +31,10 @@
 
   <script>
     var map = new L.Map('map').setView([59.34466, 24.59154], 15);
-    map.attributionControl.setPrefix('&copy; <a href="http://koidukyla.ee/">Koidu küla</a>');
+    map.attributionControl.setPrefix('<a href="http://koidukyla.ee/">Koidu küla</a>');
 
     var positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> | &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
     }).addTo(map);
 
     var ortofoto = L.tileLayer('http://kaart.maakaart.ee/orto/{z}/{x}/{y}.jpeg', {
