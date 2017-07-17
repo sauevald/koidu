@@ -1,3 +1,4 @@
+
 [koidukyla.ee](http://koidukyla.ee/) > [Koidu Külaselts](http://koidukyla.ee/selts/)
 
 ## Koidu Külaseltsi liikmed
