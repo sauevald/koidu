@@ -130,4 +130,4 @@ sihtasutuste nimekirja liikmele või avalik-õiguslikule juriidilisele isikule.
 _Põhikiri on kinnitatud asutamislepinguga Koidu Külaseltsi asutamiskoosolekul 18.06.2017_
 
 ---
-[koidukyla.ee](http://koidukyla.ee/) > [Koidu Külaselts](http://koidukyla.ee/selts/)
+[Koidu küla](http://koidukyla.ee/) > [Koidu Külaselts](http://koidukyla.ee/selts/)
