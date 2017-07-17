@@ -1,4 +1,6 @@
+---
 [koidukyla.ee](http://koidukyla.ee/)
+---
 
 ## Koidu Külaselts
 
