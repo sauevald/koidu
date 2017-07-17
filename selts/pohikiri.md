@@ -128,3 +128,6 @@ korras.
 1. Seltsi likvideerimisel antakse pärast võlausaldajate nõuete rahuldamist allesjäänud
 vara sarnase eesmärgiga tulumaksusoodustusega mittetulundusühingute ja
 sihtasutuste nimekirja liikmele või avalik-õiguslikule juriidilisele isikule.
+
+---
+[koidukyla.ee](http://koidukyla.ee/) > [Koidu Külaselts](http://koidukyla.ee/selts/)
