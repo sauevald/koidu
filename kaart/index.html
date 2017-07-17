@@ -34,7 +34,7 @@
     map.attributionControl.setPrefix('<a href="http://koidukyla.ee/" target="_blank">Koidu küla</a>');
 
     var positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> | &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> | &copy; <a href="http://cartodb.com/attributions" target="_blank">CartoDB</a>'
     }).addTo(map);
 
     var ortofoto = L.tileLayer('http://kaart.maakaart.ee/orto/{z}/{x}/{y}.jpeg', {
@@ -61,8 +61,7 @@
     }
 
     var projektid = omnivore.geojson('projektid.geojson', {
-        	pane: 'projektid',
-          attribution: '&copy; <a href="http://koidukyla.ee/">Koidu Külaselts</a>'
+        	pane: 'projektid'
         })
       .on('ready', function() {
         map.fitBounds(projektid.getBounds());
