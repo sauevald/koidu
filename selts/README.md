@@ -8,4 +8,4 @@ Asutamiskoosolekul valiti seltsi juhatusse Allar Leedu, Rain Väät ja Tormi Tab
 - [Liikmete nimekiri](liikmed.md)
 
 ---
-[koidukyla.ee](http://koidukyla.ee/)
+[Koidu küla](http://koidukyla.ee/)
