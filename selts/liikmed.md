@@ -13,6 +13,7 @@ Kati Oolo | Asutajaliige |
 Raili Vesberg-Pikk | Asutajaliige | 
 Kaidi Väät | Asutajaliige | 
 Rain Väät | Asutajaliige, juhatuse liige | 
+Anti Leedu | Liige | 
 
 ---
 [Koidu küla](http://koidukyla.ee/) > [Koidu Külaselts](http://koidukyla.ee/selts/)
