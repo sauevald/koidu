@@ -10,8 +10,6 @@ Küla loomise algatas [kohalik kogukond](https://www.facebook.com/koidu). Külas
 
 [Koidu Külaselts MTÜ](/selts/) on asutatud 18. juunil 2017.a [11 asutajaliikme](/selts/liikmed.md) poolt. Seltsi eesmärgiks on [põhikirja](/selts/pohikiri_80419983_689415.pdf) järgi Koidu küla seltsielu edendamine; sotsiaalse, majandusliku ja kultuurilise taristu arendamine ning piirkonna elanike huvide esindamine ja kaitsmine.
 
-Asutamiskoosolekul valiti seltsi juhatusse Allar Leedu, Rain Väät ja Tormi Tabor. Külaseltsiga liitumiseks saada seltsi juhatusele (meiliaadress koidu.kylaselts@eesti.ee) vabas vormis avaldus. Seltsi juhatuse protokollid asuvad [siin](/selts/juhatus).
-
 ## Projektid
 
 1. [Koidu Külaselts MTÜ](https://github.com/sauevald/koidu/projects/5)
