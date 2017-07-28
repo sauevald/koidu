@@ -9,7 +9,7 @@ Riina Aasmaa | Asutajaliige |
 [Alan Luuk](https://github.com/alanluuk) | Asutajaliige | 
 Siiri Luuk | Asutajaliige | 
 Kati Oolo | Asutajaliige | 
-[Tormi Tabor](https://github.com/tormi) | Asutajaliige, juhatuse liige | 54513000 
+[Tormi Tabor](https://github.com/tormi) | Asutajaliige, juhatuse esimees | 54513000 
 Raili Vesberg-Pikk | Asutajaliige | 
 Kaidi Väät | Asutajaliige | 
 Rain Väät | Asutajaliige, juhatuse liige | 
