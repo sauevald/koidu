@@ -4,6 +4,8 @@
 
 Asutamiskoosolekul valiti seltsi juhatusse Allar Leedu, Rain Väät ja Tormi Tabor. Külaseltsiga liitumiseks saada seltsi juhatusele (meiliaadress koidu.kylaselts@eesti.ee) vabas vormis avaldus.
 
+Koidu Külaseltsi kontonumber: EE647700771002665057, AS LHV PANK.
+
 - [Põhikiri](pohikiri.md) ([pdf-versioon](pohikiri_80419983_689415.pdf))
 - [Liikmete nimekiri](liikmed.md)
 - [Juhatuse protokollid](/selts/juhatus)
