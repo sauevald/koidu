@@ -25,7 +25,7 @@ Küla loomise algatas [kohalik kogukond](https://www.facebook.com/koidu). Külas
 
 Ideede ja probleemide logi: [https://github.com/sauevald/koidu/issues](https://github.com/sauevald/koidu/issues)
 
-Projektikeskkonnas ise osalemine eeldab [kasutajaks registreerimist](https://github.com/join). Ideed ja probleemid saab edastada ka külaseltsi meiliaadressile koidu.kylaselts at gmail.com või [küla FB grupis](https://www.facebook.com/groups/koidu/).
+Projektikeskkonnas ise osalemine eeldab [kasutajaks registreerimist](https://github.com/join). Ideed ja probleemid saab edastada ka külaseltsi meiliaadressile koidu.kylaselts@eesti.ee või [küla FB grupis](https://www.facebook.com/groups/koidu/).
 
 ## Kaart
 
