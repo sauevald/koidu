@@ -13,7 +13,7 @@ Asutamiskoosolekul valiti seltsi juhatusse Allar Leedu, Rain Väät ja Tormi Tab
 - telefon: +372 5451 3000
 - e-posti aadress: koidu.kylaselts@eesti.ee
 - registrikood: 80419983
-- kontonumber: EE647700771002665057, AS LHV PANK
+- kontonumber: EE647700771002665057, AS LHV PANK (_ülekandel kasuta saajana nimetust "Koidu Külaselts"_)
 - asukoht: Harju maakond, Saue vald, Koidu küla
 
 ---
