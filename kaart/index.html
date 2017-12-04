@@ -10,14 +10,18 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
 
   <style>
-    html, body, #container {
+    html,
+    body,
+    #container {
       height: 100%;
       width: 100%;
       overflow: hidden;
     }
+
     body {
       padding-top: 50px;
     }
+
     #map {
       width: auto;
       height: 100%;
@@ -56,13 +60,53 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.12/proj4.js"></script>
     <script src="https://cdn.rawgit.com/kartena/Proj4Leaflet/master/src/proj4leaflet.js"></script>
     <script src='https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js'></script>
+    <script src="https://cdn.rawgit.com/heigeo/leaflet.wms/gh-pages/src/leaflet.wms.js"></script>
     <script>
-      var map = new L.Map('map').setView([59.34466, 24.59154], 15);
+      var EPSG_3301 = new L.Proj.CRS('EPSG:3301', '+proj=lcc +lat_1=59.33333333333334 +lat_2=58 +lat_0=57.51755393055556 +lon_0=24 +x_0=500000 +y_0=6375000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs', {
+        resolutions: [4000, 2000, 1000, 500, 250, 125, 62.5, 31.25, 15.625, 7.8125, 3.90625, 1.953125, 0.9765625, 0.48828125, 0.244140625, 0.122070313, 0.061035156, 0.030517578, 0.015258789],
+        origin: [40500, 5993000],
+        bounds: L.bounds([40500, 5993000], [1064500, 7017000])
+      });
+
+      // http://bl.ocks.org/emacgillavry/1a654b76d35deceb9bec
+      EPSG_3301.distance = L.CRS.Earth.distance;
+      EPSG_3301.R = 6378137;
+
+      var map = new L.Map('map', {
+        crs: EPSG_3301
+      });
+      //  var map = new L.Map('map').setView([59.34466, 24.59154], 15);
       map.attributionControl.setPrefix('<a href="http://koidukyla.ee/" target="_blank">Koidu küla</a>');
 
       var positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> | &copy; <a href="http://cartodb.com/attributions" target="_blank">CartoDB</a>'
       }).addTo(map);
+      var aluskaart = new L.TileLayer('proxy.php?url=http://tiles.maaamet.ee/tm/s/1.0.0/kaart/{z}/{x}/{-y}.png', {
+        maxZoom: 13,
+        // minZoom: 2,
+        zIndex: 1
+      }).addTo(map);
+
+      var fotokaart = new L.TileLayer('proxy.php?url=http://tiles.maaamet.ee/tm/s/1.0.0/foto/{z}/{x}/{-y}.png', {
+        maxZoom: 13,
+        // minZoom: 2,
+        zIndex: 1
+      });
+
+      var kataster = L.WMS.overlay("http://kaart.maaamet.ee/wms/alus-geo", {
+        'transparent': true,
+        'srs': 'EPSG_3301',
+        'format': 'image/png',
+        'layers': 'TOPOYKSUS_6569,TOPOYKSUS_7793',
+        maxZoom: 13,
+        minZoom: 11
+      });
+      kataster.setOpacity(0.8);
+
+      var hybriid = new L.TileLayer('proxy.php?url=http://tiles.maaamet.ee/tm/s/1.0.0/hybriid/{z}/{x}/{-y}.png', {
+        maxZoom: 13,
+        zIndex: 2
+      });
 
       map.createPane('projektid').style.zIndex = 800;
 
@@ -113,10 +157,13 @@
         });
 
       var baseLayers = {
-        "Aluskaart": positron
+        "Kaart": aluskaart,
+        "Foto": fotokaart
       };
 
       var overlays = {
+        "Hübriid": hybriid,
+        "Kataster (z11+)": kataster,
         "Projektid": projektid,
         "Koidu küla piir": koidu_kyla
       };
