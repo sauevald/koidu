@@ -81,13 +81,13 @@
       var positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> | &copy; <a href="http://cartodb.com/attributions" target="_blank">CartoDB</a>'
       }).addTo(map);
-      var aluskaart = new L.TileLayer('proxy.php?url=http://tiles.maaamet.ee/tm/s/1.0.0/kaart/{z}/{x}/{-y}.png', {
+      var aluskaart = new L.TileLayer('http://tiles.maaamet.ee/tm/s/1.0.0/kaart/{z}/{x}/{-y}.png', {
         maxZoom: 13,
         // minZoom: 2,
         zIndex: 1
       }).addTo(map);
 
-      var fotokaart = new L.TileLayer('proxy.php?url=http://tiles.maaamet.ee/tm/s/1.0.0/foto/{z}/{x}/{-y}.png', {
+      var fotokaart = new L.TileLayer('http://tiles.maaamet.ee/tm/s/1.0.0/foto/{z}/{x}/{-y}.png', {
         maxZoom: 13,
         // minZoom: 2,
         zIndex: 1
