@@ -2,100 +2,128 @@
 <html>
 
 <head>
-  <meta charset=utf-8 />
   <title>Koidu küla</title>
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <link rel='stylesheet' href='https://unpkg.com/leaflet@1.2.0/dist/leaflet.css' />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
-  <script src='https://unpkg.com/leaflet@1.2.0/dist/leaflet.js'></script>
-  <script src='https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js'></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+
   <style>
-    body {
-      margin: 0;
-      padding: 0;
-    }
-
-    #map {
-      position: absolute;
-      top: 0;
-      bottom: 0;
+    html, body, #container {
+      height: 100%;
       width: 100%;
+      overflow: hidden;
+    }
+    body {
+      padding-top: 50px;
+    }
+    #map {
+      width: auto;
+      height: 100%;
     }
   </style>
 </head>
 
 <body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="/">Koidu küla</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-left">
+          <li><a href="/kaart">Kaart</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><i class="glyphicon glyphicon-question-sign"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="container">
+    <div id='map'></div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/2f1e68e2dc.js"></script>
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.12/proj4.js"></script>
+    <script src="https://cdn.rawgit.com/kartena/Proj4Leaflet/master/src/proj4leaflet.js"></script>
+    <script src='https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js'></script>
+    <script>
+      var map = new L.Map('map').setView([59.34466, 24.59154], 15);
+      map.attributionControl.setPrefix('<a href="http://koidukyla.ee/" target="_blank">Koidu küla</a>');
 
-  <div id='map'></div>
+      var positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> | &copy; <a href="http://cartodb.com/attributions" target="_blank">CartoDB</a>'
+      }).addTo(map);
 
-  <script>
-    var map = new L.Map('map').setView([59.34466, 24.59154], 15);
-    map.attributionControl.setPrefix('<a href="http://koidukyla.ee/" target="_blank">Koidu küla</a>');
+      map.createPane('projektid').style.zIndex = 800;
 
-    var positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> | &copy; <a href="http://cartodb.com/attributions" target="_blank">CartoDB</a>'
-    }).addTo(map);
-
-    map.createPane('projektid').style.zIndex = 800;
-
-    function pStyle(pFeature) {
-      return {
-        weight: 2,
-        opacity: 0.5,
-        color: 'orange',
-        dashArray: '3'
+      function pStyle(pFeature) {
+        return {
+          weight: 2,
+          opacity: 0.5,
+          color: 'orange',
+          dashArray: '3'
+        }
       }
-    }
 
-    function eachLayer(p) {
-      var pFeature = p.toGeoJSON();
-      if (pFeature.properties && pFeature.properties.Nimetus) {
-        p.bindPopup('<b>' + pFeature.properties.Nimetus + '</b>');
+      function eachLayer(p) {
+        var pFeature = p.toGeoJSON();
+        if (pFeature.properties && pFeature.properties.Nimetus) {
+          p.bindPopup('<b>' + pFeature.properties.Nimetus + '</b>');
+        }
       }
-    }
 
-    var projektid = omnivore.geojson('projektid.geojson', {
-        	pane: 'projektid'
+      var projektid = omnivore.geojson('projektid.geojson', {
+          pane: 'projektid'
         })
-      .on('ready', function() {
-        map.fitBounds(projektid.getBounds());
-        map.addLayer(projektid);
-        projektid.eachLayer(eachLayer);
-        projektid.setStyle(pStyle);
+        .on('ready', function() {
+          map.fitBounds(projektid.getBounds());
+          map.addLayer(projektid);
+          projektid.eachLayer(eachLayer);
+          projektid.setStyle(pStyle);
+        });
+
+      projektid.on('click', function(e) {
+        map.fitBounds(e.layer.getBounds());
       });
 
-    projektid.on('click', function(e) {
-      map.fitBounds(e.layer.getBounds());
-    });
-
-    function kStyle(kFeature) {
-      return {
-        weight: 2,
-        opacity: 0.5,
-        color: '#669900'
+      function kStyle(kFeature) {
+        return {
+          weight: 2,
+          opacity: 0.5,
+          color: '#669900'
+        }
       }
-    }
 
-    var koidu_kyla = omnivore.geojson('koidu_kyla.geojson')
-      .on('ready', function() {
-        map.fitBounds(koidu_kyla.getBounds());
-        // map.addLayer(koidu_kyla);
-        koidu_kyla.eachLayer(eachLayer);
-        koidu_kyla.setStyle(kStyle);
-      });
+      var koidu_kyla = omnivore.geojson('koidu_kyla.geojson')
+        .on('ready', function() {
+          map.fitBounds(koidu_kyla.getBounds());
+          // map.addLayer(koidu_kyla);
+          koidu_kyla.eachLayer(eachLayer);
+          koidu_kyla.setStyle(kStyle);
+        });
 
-    var baseLayers = {
-      "Aluskaart": positron
-    };
+      var baseLayers = {
+        "Aluskaart": positron
+      };
 
-    var overlays = {
-      "Projektid": projektid,
-      "Koidu küla piir": koidu_kyla
-    };
+      var overlays = {
+        "Projektid": projektid,
+        "Koidu küla piir": koidu_kyla
+      };
 
-    L.control.layers(baseLayers, overlays).addTo(map);
-  </script>
+      L.control.layers(baseLayers, overlays).addTo(map);
+    </script>
+  </div>
 </body>
 
 </html>
