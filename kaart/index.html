@@ -83,9 +83,9 @@
       //  var map = new L.Map('map').setView([59.34466, 24.59154], 15);
       map.attributionControl.setPrefix('<a href="http://koidukyla.ee/" target="_blank">Koidu küla</a>');
 
-//      var positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-//        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> | &copy; <a href="http://cartodb.com/attributions" target="_blank">CartoDB</a>'
-//      }).addTo(map);
+      //      var positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+      //        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> | &copy; <a href="http://cartodb.com/attributions" target="_blank">CartoDB</a>'
+      //      }).addTo(map);
       var aluskaart = new L.TileLayer('http://tiles.maaamet.ee/tm/s/1.0.0/kaart/{z}/{x}/{-y}.png', {
         maxZoom: 13,
         // minZoom: 2,
@@ -135,7 +135,7 @@
           pane: 'projektid'
         })
         .on('ready', function() {
-          map.fitBounds(projektid.getBounds());
+        //  map.fitBounds(projektid.getBounds());
           map.addLayer(projektid);
           projektid.eachLayer(eachLayer);
           projektid.setStyle(pStyle);
@@ -155,25 +155,11 @@
 
       var koidu_kyla = omnivore.geojson('koidu_kyla.geojson')
         .on('ready', function() {
-          map.fitBounds(koidu_kyla.getBounds());
+          // map.fitBounds(koidu_kyla.getBounds());
           // map.addLayer(koidu_kyla);
           koidu_kyla.eachLayer(eachLayer);
           koidu_kyla.setStyle(kStyle);
         });
-
-      var baseLayers = {
-        "Kaart": aluskaart,
-        "Foto": fotokaart
-      };
-
-      var overlays = {
-        "Hübriid": hybriid,
-        "Kataster (z11+)": kataster,
-        "Projektid": projektid,
-        "Koidu küla piir": koidu_kyla
-      };
-
-      L.control.layers(baseLayers, overlays).addTo(map);
 
       L.control.layers({
         "Kaart": aluskaart,
@@ -194,7 +180,6 @@
         'koidu_kyla': koidu_kyla
       };
       L.myHash(map, layerHashKeys);
-
     </script>
   </div>
 </body>
