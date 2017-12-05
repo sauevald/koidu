@@ -62,6 +62,8 @@
     <script src="https://cdn.rawgit.com/kartena/Proj4Leaflet/master/src/proj4leaflet.js"></script>
     <script src='https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js'></script>
     <script src="https://cdn.rawgit.com/heigeo/leaflet.wms/gh-pages/src/leaflet.wms.js"></script>
+    <script src="leaflet-fullHash.js"></script>
+    <script src="myhash.js"></script>
     <script>
       var EPSG_3301 = new L.Proj.CRS('EPSG:3301', '+proj=lcc +lat_1=59.33333333333334 +lat_2=58 +lat_0=57.51755393055556 +lon_0=24 +x_0=500000 +y_0=6375000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs', {
         resolutions: [4000, 2000, 1000, 500, 250, 125, 62.5, 31.25, 15.625, 7.8125, 3.90625, 1.953125, 0.9765625, 0.48828125, 0.244140625, 0.122070313, 0.061035156, 0.030517578, 0.015258789],
@@ -74,14 +76,16 @@
       EPSG_3301.R = 6378137;
 
       var map = new L.Map('map', {
+        center: [59.3438, 24.5916],
+        zoom: 11,
         crs: EPSG_3301
       });
       //  var map = new L.Map('map').setView([59.34466, 24.59154], 15);
       map.attributionControl.setPrefix('<a href="http://koidukyla.ee/" target="_blank">Koidu küla</a>');
 
-//      var positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-//        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> | &copy; <a href="http://cartodb.com/attributions" target="_blank">CartoDB</a>'
-//      }).addTo(map);
+      //      var positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+      //        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> | &copy; <a href="http://cartodb.com/attributions" target="_blank">CartoDB</a>'
+      //      }).addTo(map);
       var aluskaart = new L.TileLayer('http://tiles.maaamet.ee/tm/s/1.0.0/kaart/{z}/{x}/{-y}.png', {
         maxZoom: 13,
         // minZoom: 2,
@@ -131,7 +135,7 @@
           pane: 'projektid'
         })
         .on('ready', function() {
-          map.fitBounds(projektid.getBounds());
+        //  map.fitBounds(projektid.getBounds());
           map.addLayer(projektid);
           projektid.eachLayer(eachLayer);
           projektid.setStyle(pStyle);
@@ -151,25 +155,31 @@
 
       var koidu_kyla = omnivore.geojson('koidu_kyla.geojson')
         .on('ready', function() {
-          map.fitBounds(koidu_kyla.getBounds());
+          // map.fitBounds(koidu_kyla.getBounds());
           // map.addLayer(koidu_kyla);
           koidu_kyla.eachLayer(eachLayer);
           koidu_kyla.setStyle(kStyle);
         });
 
-      var baseLayers = {
+      L.control.layers({
         "Kaart": aluskaart,
         "Foto": fotokaart
-      };
-
-      var overlays = {
+      }, {
         "Hübriid": hybriid,
         "Kataster (z11+)": kataster,
         "Projektid": projektid,
         "Koidu küla piir": koidu_kyla
-      };
+      }).addTo(map);
 
-      L.control.layers(baseLayers, overlays).addTo(map);
+      var layerHashKeys = {
+        'alus': aluskaart,
+        'foto': fotokaart,
+        'hybriid': hybriid,
+        'kataster': kataster,
+        'projektid': projektid,
+        'koidu_kyla': koidu_kyla
+      };
+      L.myHash(map, layerHashKeys);
     </script>
   </div>
 </body>
