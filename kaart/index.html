@@ -113,6 +113,11 @@
         zIndex: 2
       });
 
+      var eraldis = new L.TileLayer('https://gsavalik.envir.ee/geoserver/gwc/service/tms/1.0.0/metsaregister:eraldis@EPSG:3301@png/{z}/{x}/{-y}.png', {
+        maxZoom: 13,
+        minZoom: 8
+      });
+
       map.createPane('projektid').style.zIndex = 800;
 
       function pStyle(pFeature) {
@@ -167,6 +172,7 @@
       }, {
         "Hübriid": hybriid,
         "Kataster (z11+)": kataster,
+        "Metsaeraldised": eraldis,
         "Projektid": projektid,
         "Koidu küla piir": koidu_kyla
       }).addTo(map);
@@ -176,6 +182,7 @@
         'foto': fotokaart,
         'hybriid': hybriid,
         'kataster': kataster,
+        'eraldis': eraldis,
         'projektid': projektid,
         'koidu_kyla': koidu_kyla
       };
