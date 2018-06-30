@@ -11,6 +11,7 @@ Küla loomise algatas [kohalik kogukond](https://www.facebook.com/koidu). Külas
 [Koidu Külaselts MTÜ](/selts/) on asutatud 18. juunil 2017.a [11 asutajaliikme](/selts/liikmed.md) poolt. Seltsi eesmärgiks on [põhikirja](/selts/pohikiri_80419983_689415.pdf) järgi Koidu küla seltsielu edendamine; sotsiaalse, majandusliku ja kultuurilise taristu arendamine ning piirkonna elanike huvide esindamine ja kaitsmine.
 
 ## Projektid
+<iframe frameborder='0' src='https://trello.com/b/4aElLaga/koidu-m%C3%A4nguv%C3%A4ljak.html' style='border: 1px solid black'></iframe>
 
 1. [Koidu Külaselts MTÜ](https://github.com/sauevald/koidu/projects/5)
 1. [Koidu küla arengukava](https://github.com/sauevald/koidu/projects/11)
