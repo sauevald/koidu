@@ -13,16 +13,19 @@ Küla loomise algatas [kohalik kogukond](https://www.facebook.com/koidu). Külas
 ## Projektid
 
 <blockquote class="trello-board-compact">
-  <a href="https://trello.com/b/4aElLaga/koidu-m%C3%A4nguv%C3%A4ljak">Koidu mänguväljaku projekt</a>
+  <a href="https://trello.com/b/4aElLaga/koidu-m%C3%A4nguv%C3%A4ljak">Koidu mänguväljak</a>
 </blockquote>
 <blockquote class="trello-board-compact">
-  <a href="https://trello.com/b/VwAGi2Mh/koidu-tennisev%C3%A4ljakud">Koidu tenniseväljakute projekt</a>
+  <a href="https://trello.com/b/VwAGi2Mh/koidu-tennisev%C3%A4ljakud">Koidu tenniseväljakud</a>
 </blockquote>
 <blockquote class="trello-board-compact">
-  <a href="https://trello.com/b/M3HkaOgT/koidu-palliplats">Koidu palliplatsi projekt</a>
+  <a href="https://trello.com/b/M3HkaOgT/koidu-palliplats">Koidu palliplats</a>
 </blockquote>
 <blockquote class="trello-board-compact">
-  <a href="https://trello.com/b/wO11C45b/koidu-park">Koidu pargi projekt</a>
+  <a href="https://trello.com/b/wO11C45b/koidu-park">Koidu park</a>
+</blockquote>
+<blockquote class="trello-board-compact">
+  <a href="https://trello.com/b/Ir1GsM4y/koidu-mets">Koidu mets</a>
 </blockquote>
 <blockquote class="trello-board-compact">
   <a href="https://trello.com/b/yAfngIr2/koidu-k%C3%BClaseltsi-juhatus">Koidu Külaseltsi juhatus</a>
