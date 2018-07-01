@@ -13,10 +13,16 @@ Küla loomise algatas [kohalik kogukond](https://www.facebook.com/koidu). Külas
 ## Projektid
 
 <blockquote class="trello-board-compact">
-  <a href="https://trello.com/b/4aElLaga/koidu-m%C3%A4nguv%C3%A4ljak">Trello Board</a>
+  <a href="https://trello.com/b/4aElLaga/koidu-m%C3%A4nguv%C3%A4ljak">Koidu mänguväljaku projekt</a>
 </blockquote>
 <blockquote class="trello-board-compact">
-  <a href="https://trello.com/b/M3HkaOgT/koidu-palliplats">Trello Board</a>
+  <a href="https://trello.com/b/VwAGi2Mh/koidu-tennisev%C3%A4ljakud">Koidu tenniseväljakute projekt</a>
+</blockquote>
+<blockquote class="trello-board-compact">
+  <a href="https://trello.com/b/M3HkaOgT/koidu-palliplats">Koidu palliplatsi projekt</a>
+</blockquote>
+<blockquote class="trello-board-compact">
+  <a href="https://trello.com/b/wO11C45b/koidu-park">Koidu pargi projekt</a>
 </blockquote>
 <script src="https://p.trellocdn.com/embed.min.js"></script>
 
