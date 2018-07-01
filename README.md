@@ -14,6 +14,7 @@ Küla loomise algatas [kohalik kogukond](https://www.facebook.com/koidu). Külas
 
 <blockquote class="trello-board-compact">
   <a href="https://trello.com/b/4aElLaga/koidu-m%C3%A4nguv%C3%A4ljak">Trello Board</a>
+  <a href="https://trello.com/b/M3HkaOgT/koidu-palliplats">Trello Board</a>
 </blockquote>
 <script src="https://p.trellocdn.com/embed.min.js"></script>
 
