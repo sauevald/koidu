@@ -24,6 +24,9 @@ Küla loomise algatas [kohalik kogukond](https://www.facebook.com/koidu). Külas
 <blockquote class="trello-board-compact">
   <a href="https://trello.com/b/wO11C45b/koidu-park">Koidu pargi projekt</a>
 </blockquote>
+<blockquote class="trello-board-compact">
+  <a href="https://trello.com/b/yAfngIr2/koidu-k%C3%BClaseltsi-juhatus">Koidu Külaseltsi juhatus</a>
+</blockquote>
 <script src="https://p.trellocdn.com/embed.min.js"></script>
 
 Projektikeskkonnas ise osalemine eeldab kasutajaks registreerimist. Ideed ja probleemid saab edastada ka külaseltsi meiliaadressile koidu.kylaselts@eesti.ee või [küla FB grupis](https://www.facebook.com/groups/koidu/).
