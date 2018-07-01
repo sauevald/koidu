@@ -26,20 +26,7 @@ Küla loomise algatas [kohalik kogukond](https://www.facebook.com/koidu). Külas
 </blockquote>
 <script src="https://p.trellocdn.com/embed.min.js"></script>
 
-1. [Koidu Külaselts MTÜ](https://github.com/sauevald/koidu/projects/5)
-1. [Koidu küla arengukava](https://github.com/sauevald/koidu/projects/11)
-1. [Koidu liikuvus](https://github.com/sauevald/koidu/projects/7)
-1. [Koidu planeeringud](https://github.com/sauevald/koidu/projects/9)
-1. [Koidu küla talgud](https://github.com/sauevald/koidu/projects/6)
-1. [Koidu kohvikutepäevad](https://github.com/sauevald/koidu/projects/12)
-1. [Koidu mänguväljak (Koidu tee 7a)](https://github.com/sauevald/koidu/projects/1)
-1. [Koidu park (Koidu tee 1)](https://github.com/sauevald/koidu/projects/2)
-1. [Koidu tenniseväljakud](https://github.com/sauevald/koidu/projects/3)
-1. [Koidu palliplats](https://github.com/sauevald/koidu/projects/4)
-
-Ideede ja probleemide logi: [https://github.com/sauevald/koidu/issues](https://github.com/sauevald/koidu/issues)
-
-Projektikeskkonnas ise osalemine eeldab [kasutajaks registreerimist](https://github.com/join). Ideed ja probleemid saab edastada ka külaseltsi meiliaadressile koidu.kylaselts@eesti.ee või [küla FB grupis](https://www.facebook.com/groups/koidu/).
+Projektikeskkonnas ise osalemine eeldab kasutajaks registreerimist. Ideed ja probleemid saab edastada ka külaseltsi meiliaadressile koidu.kylaselts@eesti.ee või [küla FB grupis](https://www.facebook.com/groups/koidu/).
 
 ## Kaart
 
