@@ -36,5 +36,5 @@ Projektikeskkonnas ise osalemine eeldab kasutajaks registreerimist. Ideed ja pro
 
 ## Kaart
 
-<iframe height='500px' width='100%' frameborder='0' src='http://koidukyla.ee/kaart/' style='border: 1px solid black'></iframe>
-[Ava suur kaart](http://koidukyla.ee/kaart/)
+<iframe height='500px' width='100%' frameborder='0' src='https://koidukyla.ee/kaart/' style='border: 1px solid black'></iframe>
+[Ava suur kaart](https://koidukyla.ee/kaart/)
