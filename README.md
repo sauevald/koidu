@@ -28,10 +28,10 @@ Küla loomise algatas [kohalik kogukond](https://www.facebook.com/koidu). Külas
   <a href="https://trello.com/b/Ir1GsM4y/koidu-mets">Koidu mets</a>
 </blockquote>
 <blockquote class="trello-board-compact">
-  <a href="https://trello.com/b/yAfngIr2/koidu-k%C3%BClaseltsi-juhatus">Koidu Külaseltsi juhatus</a>
+  <a href="https://trello.com/b/GOflJotl/koidu-k%C3%BCla">Koidu küla</a>
 </blockquote>
 <blockquote class="trello-board-compact">
-  <a href="https://trello.com/b/GOflJotl/koidu-k%C3%BCla">Koidu küla</a>
+  <a href="https://trello.com/b/yAfngIr2/koidu-k%C3%BClaseltsi-juhatus">Koidu Külaseltsi juhatus</a>
 </blockquote>
 <script src="https://p.trellocdn.com/embed.min.js"></script>
 
