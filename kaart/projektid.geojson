@@ -9,7 +9,7 @@
         "stroke-opacity": 1,
         "fill": "#fec44f",
         "fill-opacity": 0.5,
-        "Nimetus": "<a href=\"https://github.com/sauevald/koidu/issues/11\" target=\"_blank\">Koidu park</a>"
+        "Nimetus": "<a href=\"https://trello.com/b/wO11C45b\" target=\"_blank\">Koidu park</a>"
       },
       "geometry": {
         "type": "Polygon",
@@ -67,7 +67,7 @@
         "stroke-opacity": 1,
         "fill": "#d95f0e",
         "fill-opacity": 0.5,
-        "Nimetus": "<a href=\"https://github.com/sauevald/koidu/issues/8\" target=\"_blank\">Koidu mänguväljak</a>"
+        "Nimetus": "<a href=\"https://trello.com/b/4aElLaga\" target=\"_blank\">Koidu mänguväljak</a>"
       },
       "geometry": {
         "type": "Polygon",
@@ -105,7 +105,7 @@
         "stroke-opacity": 1,
         "fill": "#d95f0e",
         "fill-opacity": 0.5,
-        "Nimetus": "<a href=\"https://github.com/sauevald/koidu/issues/12\" target=\"_blank\">Koidu tenniseväljakud</a>"
+        "Nimetus": "<a href=\"https://trello.com/b/VwAGi2Mh\" target=\"_blank\">Koidu tenniseväljakud</a>"
       },
       "geometry": {
         "type": "Polygon",
@@ -155,7 +155,7 @@
         "stroke-opacity": 1,
         "fill": "#fff7bc",
         "fill-opacity": 0.5,
-        "Nimetus": "<a href=\"https://github.com/sauevald/koidu/issues/13\" target=\"_blank\">Koidu palliplats</a>"
+        "Nimetus": "<a href=\"https://trello.com/b/M3HkaOgT\" target=\"_blank\">Koidu palliplats</a>"
       },
       "geometry": {
         "type": "Polygon",
